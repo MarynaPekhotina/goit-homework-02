@@ -9,15 +9,15 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--dark);
+  color: var(--text);
   background-color: var(--white);
 }
 
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
@@ -56,7 +56,7 @@ body {
 .header-mail,
 .header-tel {
   font-style: normal;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
   text-decoration: none;
@@ -76,9 +76,11 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white);
+  text-align: center;
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -104,18 +106,21 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--dark);
 }
 
 .features-desc {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text);
 }
+
 .processes-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  color: var(--dark);
   text-transform: capitalize;
+  text-align: center;
 }
 
 .processes-list {
@@ -130,7 +135,9 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  color: var(--dark);
   text-transform: capitalize;
+  text-align: center;
 }
 
 .teamcard-list {
@@ -146,20 +153,20 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--dark)
 }
 
 .teamcard-function {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text);
 }
 
 .footer {
   background-color: var(--dark);
 }
 
-.footer-logo {
-  font-family: "Raleway";
+.footer-logo-link {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -184,6 +191,7 @@ body {
 }
 
 .portfolio-filtres-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
