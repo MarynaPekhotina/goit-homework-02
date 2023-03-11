@@ -213,10 +213,15 @@ body {
   list-style: none;
 }
 
+.portfolio-examples-link {
+  text-decoration: none;
+}
+
 .portfolio-examples-desc {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  color: var(--dark);
   letter-spacing: 0.02em;
 }
 
